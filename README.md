@@ -38,7 +38,7 @@ cd vimeo-oembed-api-proxy
     "provider_name": "Vimeo",
     "provider_url": "https://vimeo.com/",
     "title": "####",
-    "author_name": "BushWrapz",
+    "author_name": "####",
     "author_url": "https://vimeo.com/####",
     "is_plus": "0",
     "account_type": "pro",
