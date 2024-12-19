@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/vimeo-oembed.js",
+        "use": "@vercel/node"
+      }
+    ]
+}

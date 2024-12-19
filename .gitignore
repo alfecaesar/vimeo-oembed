@@ -1,0 +1,36 @@
+# Node.js modules
+node_modules/
+
+# Environment variables file (useful for sensitive data like API keys)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vercel deployment settings (Optional)
+.vercel/
+
+# npm package-lock file
+package-lock.json
+
+# Yarn lock file (if using Yarn instead of npm)
+yarn.lock
+
+# Vercel build artifacts (if any)
+.vscode/
+
+# Temporary directories
+tmp/
+temp/
+
+# Build directory (if you build assets or static files)
+build/
+dist/
