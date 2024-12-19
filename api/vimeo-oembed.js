@@ -5,6 +5,10 @@ export default async function handler(req, res) {
   const vimeoUrl = req.query.url;
   const referer = req.query.referer;
 
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
   if (!vimeoUrl || !referer) {
     console.error('Missing required query parameters');
     return res.status(400).json({ error: 'Missing required query parameters: url and referer' });
