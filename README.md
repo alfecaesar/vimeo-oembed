@@ -26,7 +26,7 @@ cd vimeo-oembed-api-proxy
 
 ### Test the API
 
-- https://vimeo-oembed-j2k80zcwj-alfe-caesar-lagas-projects-2e809126.vercel.app/api/vimeo-oembed?url={vimeo_url}&referer={referer/whitelist_url}
+- https://vimeo-oembed.vercel.app/api/vimeo-oembed?url={vimeo_url}&referer={referer/whitelist_url}
 
 
 ### Sample Response
