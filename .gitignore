@@ -34,3 +34,4 @@ temp/
 # Build directory (if you build assets or static files)
 build/
 dist/
+.vercel

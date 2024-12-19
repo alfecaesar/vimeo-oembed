@@ -5,5 +5,12 @@
         "src": "api/vimeo-oembed.js",
         "use": "@vercel/node"
       }
+    ],
+    "routes": [
+      {
+        "src": "/api/vimeo-oembed",
+        "dest": "/api/vimeo-oembed.js"
+      }
     ]
-}
+  }
+  
